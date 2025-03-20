@@ -19,7 +19,7 @@
 
             volume = altura * largura * comprimento;
 
-            Console.WriteLine($"O volume da caixa retangular é {volume} cm³");
+            Console.WriteLine($"O volume da caixa retangular é {volume.ToString("F2")} cm³");
 
             Console.ReadLine();
         }
